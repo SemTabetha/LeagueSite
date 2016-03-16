@@ -1,0 +1,145 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: garamond;
+}
+
+
+body{
+	background-image: url("../backgrounds/bgV2.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: garamond;
+}
+
+div.center{
+	color: orange;
+	width: 800px;
+	height: 1490px;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	position: relative;
+	padding: 42px 34px 30px 30px;
+}
+
+div.content{
+	box-sizing: border-box;
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	right: 40px;
+	bottom: 30px;
+	z-index: 10;
+}
+
+div.background{
+	background-image: url("../rankborders/goldborderheaderleeg.png"), url("../rankborders/goldborderfooterleeg.png");
+	background-size: 100%;
+	background-repeat: no-repeat, no-repeat;
+	background-position: top left, bottom left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 5;
+}
+
+div.insidebg{
+	background-image: url("../rankborders/goldbordermiddeleeg.png");
+	background-size: 100%;
+	position: absolute;
+	top: 150px;
+	left: 0;
+	right: 0;
+	bottom: 130px;
+}
+
+div.bg{
+	background-color: black;
+	height: 1465px;
+	width: 785px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.adcselect{
+	width: 250px;
+	margin: auto;
+	margin-top: 42px;
+}
+
+h2.spotlight{
+	font-family: blood_crowregular;
+	text-align: center;
+	margin-top: 84px;
+	font-size: 30px;
+}
+
+h2.champselect{
+	font-family: blood_crowregular;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 42px;
+}
+
+p.info{
+	text-align: center;
+	margin-top: 40px;
+}
+
+p.info img{
+	width: 650px;
+	border: 1vmin inset black;
+	border-radius: 15vmin 15vmin 15vmin 15vmin;
+}
+
+p.adctext{
+	padding-right: 150px;
+	padding-left: 150px;
+}
+
+img.selectimg{
+	margin-top: 15px;
+	margin-left: 180px;
+}
+	
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'assassin_nationregular';
+    src: url('../fontmapke/assasinfont/assassinnation-webfont.eot');
+    src: url('../fontmapke/assasinfont/assassinnation-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontmapke/assasinfont/assassinnation-webfont.woff2') format('woff2'),
+         url('../fontmapke/assasinfont/assassinnation-webfont.woff') format('woff'),
+         url('../fontmapke/assasinfont/assassinnation-webfont.ttf') format('truetype'),
+         url('../fontmapke/assasinfont/assassinnation-webfont.svg#assassin_nationregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'blood_crowregular';
+    src: url('../fontmapke/bloodcrowfont/bloodcrow-webfont.eot');
+    src: url('../fontmapke/bloodcrowfont/bloodcrow-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontmapke/bloodcrowfont/bloodcrow-webfont.woff2') format('woff2'),
+         url('../fontmapke/bloodcrowfont/bloodcrow-webfont.woff') format('woff'),
+         url('../fontmapke/bloodcrowfont/bloodcrow-webfont.ttf') format('truetype'),
+         url('../fontmapke/bloodcrowfont/bloodcrow-webfont.svg#blood_crowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+

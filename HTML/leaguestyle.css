@@ -1,0 +1,238 @@
+*{
+	font-family: garamond;
+}
+
+
+
+
+
+
+
+body{
+	background-image: url("../backgrounds/bgV2.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+div.lefttop{
+	background-image: url("../rankborders/indexborder8,0.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 21.2%;
+	height: 46%;
+	margin-left: 1%;
+	margin-right: 0px;
+	margin-top: 2.2%;
+	top: 0;
+	position: absolute;
+	font-family: blood_crowregular;
+}
+
+div.center{
+	color: orange;
+	width: 600px;
+	height: 1490px;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	position: relative;
+}
+
+div.content{
+	box-sizing: border-box;
+	z-index: 10;
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	right: 40px;
+	bottom: 30px;
+}
+
+div.background{
+	background-image: url("../rankborders/goldborderheader.png"), url("../rankborders/goldborderfooter.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: top left, bottom left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 5;
+}
+
+div.insidebg{
+	background-image: url("../rankborders/goldbordermidde.png");
+	position: absolute;
+	top: 150px;
+	left: 0;
+	right: 0;
+	bottom: 130px;
+}
+
+h2.index{
+	margin-top: 25px;
+	display: inline-block;
+	font-family: blood_crowregular;
+	text-align: center;
+	width: 100%;
+	color: orange;
+}	
+
+ul.indexul{
+	font-size: 18px;
+	float: left;
+	margin-top: -9px;
+	color: orange;
+}
+
+ul.indexul li{
+	font-family: blood_crowregular;
+	list-style-type: square;
+	margin-bottom: 11px;
+}
+
+h2.spotlight{
+	text-align: center;
+	font-family: blood_crowregular;
+	font-size: 25px;
+	margin-top: 30px;
+}	
+
+img.ashelight{
+	border: 6px ridge white;
+	float: left;
+	display: block;
+	clear: both;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+img.volilight{
+	border: 6px ridge white;
+	float: right;
+	display: block;
+	clear: both;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+img.morganalight{
+	border: 6px ridge purple;
+	float: left;
+	display: block;
+	clear: both;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+img.kaylelight{
+	border: 6px ridge gold;
+	float: right;
+	display: block;
+	clear: both;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+img.quinlight{
+	border: 6px ridge blue;
+	float: left;
+	display: block;
+	clear: both;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+img.zedlight{
+	border: 6px ridge red;
+	float: right;
+	display: block;
+	clear: both;
+	margin-left: 5px;
+	margin-right: 5px;
+}	
+
+img.ahrilight{
+	border: 6px ridge red;
+	float: left;
+	display: block;
+	clear: both;
+	margin-left: 5px;
+	margin-right: 5px;
+}	
+
+img.kindredlight{
+	border: 6px ridge purple;
+	float: right;
+	display: block;
+	clear: both;
+	margin-left: 5px;
+	margin-right: 5px;
+}	
+
+a.hyperlink{
+	color: white;
+	text-decoration: none;
+}
+
+a.hyperlink:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+a.lilink{
+	font-family: blood_crowregular;
+	color: orange;
+	text-decoration: none;
+}
+
+a.lilink:hover{
+	font-family: blood_crowregular;
+	font-style: italic;
+	color: yellow;
+	text-decoration: underline;
+}
+
+p{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'assassin_nationregular';
+    src: url('../fontmapke/assasinfont/assassinnation-webfont.eot');
+    src: url('../fontmapke/assasinfont/assassinnation-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontmapke/assasinfont/assassinnation-webfont.woff2') format('woff2'),
+         url('../fontmapke/assasinfont/assassinnation-webfont.woff') format('woff'),
+         url('../fontmapke/assasinfont/assassinnation-webfont.ttf') format('truetype'),
+         url('../fontmapke/assasinfont/assassinnation-webfont.svg#assassin_nationregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'blood_crowregular';
+    src: url('../fontmapke/bloodcrowfont/bloodcrow-webfont.eot');
+    src: url('../fontmapke/bloodcrowfont/bloodcrow-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontmapke/bloodcrowfont/bloodcrow-webfont.woff2') format('woff2'),
+         url('../fontmapke/bloodcrowfont/bloodcrow-webfont.woff') format('woff'),
+         url('../fontmapke/bloodcrowfont/bloodcrow-webfont.ttf') format('truetype'),
+         url('../fontmapke/bloodcrowfont/bloodcrow-webfont.svg#blood_crowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

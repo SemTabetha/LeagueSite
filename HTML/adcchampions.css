@@ -1,0 +1,184 @@
+*{
+	font-family: garamond;
+}
+
+
+
+
+
+
+
+body{
+	background: url("../backgrounds/adcbackground.png") 50% 50% / cover no-repeat fixed;
+}
+
+div.center{
+	color: white;
+	width: 800px;
+	height: 1290px;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	position: relative;
+	padding: 42px 34px 30px 30px;
+}
+
+div.content{
+	box-sizing: border-box;
+	z-index: 10;
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	right: 40px;
+	bottom: 30px;
+}
+
+div.background{
+	background-image: url("../rankborders/goldborderheader.png"), url("../rankborders/goldborderfooter.png");
+	background-size: 100%;
+	background-repeat: no-repeat, no-repeat;
+	background-position: top left, bottom left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 5;
+}
+
+div.insidebg{
+	background-image: url("../rankborders/goldbordermidde.png");
+	background-size: 100%;
+	position: absolute;
+	top: 150px;
+	left: 0;
+	right: 0;
+	bottom: 130px;
+}
+
+div.items{
+
+}
+
+span.name{
+	color: gold;
+	font-weight: bold;
+}
+
+h1.ability{
+	margin-left: 30px;
+	font-family: blood_crowregular;
+	font-size: 42px;
+}
+
+h2.spotlight{
+	font-family: blood_crowregular;
+	text-align: center;
+	margin-top: 84px;
+	font-size: 30px;
+}
+
+ul.abs{
+	color: rgb(0, 255, 255);
+	margin-left: 30px;
+}
+
+ul.abs li{
+	text-decoration: underline;
+	list-style-type: none;
+	font-family: blood_crowregular;
+	margin-bottom: 5px;
+}
+
+
+#FS:hover li.descfs, #RF:hover li.descrf, #AV:hover li.descav, #HS:hover li.deschs, #EC:hover li.descec{
+	display: block;
+}
+
+#FS li.descfs, #RF li.descrf, #AV li.descav, #HS li.deschs, #EC li.descec{
+	display: none;
+	float: right;
+	color: white;
+	width: 420px;
+	padding: 2px;
+	border: pink 1px solid;
+	text-decoration: none;
+	font-family: carona;
+	background-color: blue;
+	margin-right: 42px;
+	position: absolute;
+	top: 61%;
+	right: 3.5%;
+}
+
+#DB:hover p.db, #BG:hover p.bg, #IE:hover p.ie, #PH:hover p.ph, #BT:hover p.bt, #LW:hover p.lw, #GB:hover p.gb, #BOTRK:hover p.botrk, #GA:hover p.ga, #BV:hover p.bv{
+	display: block;
+}
+
+#DB p.db, #BG p.bg, #IE p.ie, #PH p.ph, #BT p.bt, #LW p.lw, #GB p.gb, #BOTRK p.botrk, #GA p.ga, #BV p.bv{
+	float: right;
+	display: none;
+	border: 1px solid white;
+	background-color: blue; 
+	width: 200px;
+	position: absolute;
+	top: 75%;
+	right: 7.5%;
+}
+
+p.picture{
+	text-align: center;
+	margin-top: 30px;
+}
+
+p.picture img{
+	width: 500px;
+	border: 1vmin inset black;
+	border-radius: 15vmin 15vmin 0vmin 0vmin;
+}
+
+p.lore{
+	font-family: corona;
+	margin-left: 30px;
+	width: 400px;
+}
+
+img.itemimg{
+	margin-right: 3px;
+	border: 0.5vmin outset purple;
+	border-radius: 15vmin 15vmin 15vmin 15vmin;
+}
+	
+.child{
+	margin-left: 30px;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'assassin_nationregular';
+    src: url('../fontmapke/assasinfont/assassinnation-webfont.eot');
+    src: url('../fontmapke/assasinfont/assassinnation-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontmapke/assasinfont/assassinnation-webfont.woff2') format('woff2'),
+         url('../fontmapke/assasinfont/assassinnation-webfont.woff') format('woff'),
+         url('../fontmapke/assasinfont/assassinnation-webfont.ttf') format('truetype'),
+         url('../fontmapke/assasinfont/assassinnation-webfont.svg#assassin_nationregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'blood_crowregular';
+    src: url('../fontmapke/bloodcrowfont/bloodcrow-webfont.eot');
+    src: url('../fontmapke/bloodcrowfont/bloodcrow-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fontmapke/bloodcrowfont/bloodcrow-webfont.woff2') format('woff2'),
+         url('../fontmapke/bloodcrowfont/bloodcrow-webfont.woff') format('woff'),
+         url('../fontmapke/bloodcrowfont/bloodcrow-webfont.ttf') format('truetype'),
+         url('../fontmapke/bloodcrowfont/bloodcrow-webfont.svg#blood_crowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
